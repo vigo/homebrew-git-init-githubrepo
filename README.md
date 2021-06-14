@@ -1,11 +1,16 @@
-# Vigo Git-init-githubrepo
+[![brew test-bot](https://github.com/vigo/homebrew-git-init-githubrepo/actions/workflows/tests.yml/badge.svg)](https://github.com/vigo/homebrew-git-init-githubrepo/actions/workflows/tests.yml)
+[![brew pr-pull](https://github.com/vigo/homebrew-git-init-githubrepo/actions/workflows/publish.yml/badge.svg)](https://github.com/vigo/homebrew-git-init-githubrepo/actions/workflows/publish.yml)
 
-## How do I install these formulae?
+# Brew Tap for `statoo`
 
-`brew install vigo/git-init-githubrepo/<formula>`
+Install latest version of [git-init-githubrepo](https://github.com/vigo/git-init-githubrepo)
 
-Or `brew tap vigo/git-init-githubrepo` and then `brew install <formula>`.
+```bash
+brew install vigo/git-init-githubrepo/git-init-githubrepo
+```
 
-## Documentation
+or;
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap vigo/git-init-githubrepo && brew install git-init-githubrepo
+```
