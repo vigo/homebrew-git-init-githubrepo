@@ -6,9 +6,9 @@ class GitInitGithubrepo < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vigo/homebrew-git-init-githubrepo/releases/download/git-init-githubrepo-0.3.1"
-    sha256 cellar: :any_skip_relocation, big_sur:      "6084b21add9e86c6626ca1d1c3225be93708cf6f1ab0b21853f3df9b9afc96f3"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "75cc04650350a7a7ba43d047f31cae24ff05b5335790f96f1a0f8cb8c64c07cc"
+    root_url "https://github.com/vigo/homebrew-git-init-githubrepo/releases/download/git-init-githubrepo-0.3.2"
+    sha256 cellar: :any_skip_relocation, monterey:     "6bf2333845661c65a5d9065c615dfd2a08e707a0b280772661741bdf1a1a134e"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "5b9251d2e8b761abe83b10f41bcf3a51be99156eef17d7772a8929a555a31b09"
   end
 
   depends_on "go" => :build
