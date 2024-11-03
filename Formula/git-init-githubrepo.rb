@@ -13,7 +13,7 @@ class GitInitGithubrepo < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args, "./cmd"
+    system "go", "build", *std_go_args, "./cmd/git-init-githubrepo"
     generate_completions_from_executable(
       bin/"git-init-githubrepo",
       "--bash-completion",
