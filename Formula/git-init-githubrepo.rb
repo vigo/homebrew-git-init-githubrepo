@@ -6,8 +6,8 @@ class GitInitGithubrepo < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vigo/homebrew-git-init-githubrepo/releases/download/git-init-githubrepo-0.3.4"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "142a607e3a2aa23cb0b4b86adaa5be76eaa9b295d30b717f437f68f3581f786f"
+    root_url "https://github.com/vigo/homebrew-git-init-githubrepo/releases/download/git-init-githubrepo-0.3.5"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "a99740c69e441845c2a4d6c44985b068751d10efbf81bb51784c41971c0ce56e"
   end
 
   depends_on "go" => :build
