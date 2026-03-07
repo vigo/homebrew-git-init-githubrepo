@@ -1,13 +1,12 @@
 class GitInitGithubrepo < Formula
   desc "Create git repository structure for GitHub style"
   homepage "https://github.com/vigo/git-init-githubrepo"
-  url "https://github.com/vigo/git-init-githubrepo/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "b09fc4d72092ed7b2688887fcce62048199de0856854d88c0c99a6e79b139e4e"
+  url "https://github.com/vigo/git-init-githubrepo/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "f36ca92347cacfb5e1106258428fdaa63a94d9f0daa11c8364b88a81a550499e"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vigo/homebrew-git-init-githubrepo/releases/download/git-init-githubrepo-0.4.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "e4c7ba3e2d0cf086fff73fee9b21a052d2e52fd2ddad14299fc2540e4c37017e"
+    root_url "https://github.com/vigo/homebrew-git-init-githubrepo/releases/download/git-init-githubrepo-0.4.1"
   end
 
   depends_on "go" => :build
@@ -26,7 +25,7 @@ class GitInitGithubrepo < Formula
     require "open3"
     Open3.popen3("#{bin}/git-init-githubrepo", "--version") do |stdin, stdout, _|
       stdin.close
-      assert_equal "0.4.0", stdout.read.strip
+      assert_equal "0.4.1", stdout.read.strip
     end
   end
 end
